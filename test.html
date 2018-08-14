@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Counting with Javascript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="counting.js"></script>
+
+</head>
+<body>
+	<h1> Time to count! </h1>
+
+	<p id="demo"></p>
+
+	<div id=dataBox>
+	<form name="info">
+		<p>Please enter your name: <input type="text" name="nameBox"/> </p>
+		<p>Enter a number greater than 3 and lower than 100: <input type="text" name="numBox" /> </p>
+		<p>Choose how to count (Default 2) : <input type="text" name="incBox" /> </p>
+	<!-- input type="button" value="Calculate" onClick="doCount(info.nameBox.value, info.numBox.value)" /> -->
+	<input type="button" value="Calculate" onClick="doCount(info.nameBox.value, info.numBox.value, info.incBox.value)" />
+	<br>
+	
+	</form>
+
+	</div>
+
+<div id="answer">
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

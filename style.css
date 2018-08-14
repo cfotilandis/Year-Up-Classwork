@@ -1,0 +1,27 @@
+p {
+	font-size: 25px;
+}
+h1 {
+	font-size: 50px;
+	border-bottom: double black 5px;
+	
+
+}
+
+body {
+	background-color:#e8b291;
+	text-align: center;
+}
+
+#answer {
+	background-color:#91bbe8;
+	font-style: bold;
+	color:black;
+	font-size: 20px;
+	text-align:center;
+	border: black 10px dotted;
+	width: 300px;
+    padding: 30px;
+	margin-left:auto;
+	margin-right:auto;
+}
